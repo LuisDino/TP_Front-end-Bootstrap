@@ -1,0 +1,200 @@
+/* Barra de navegacion */
+
+.navbar {
+    padding: 0;
+    background-color: #031220;
+    justify-content: flex-end;    
+    height: min-content;
+}
+
+.navbar h5 {
+  color: antiquewhite;
+}
+
+.nav-links a{
+  font-size: 600;
+  color: aliceblue;
+  display: end;
+  justify-content: flex-end;
+}
+.nav-links{
+  display: flex;
+  text-align:center;
+  list-style: none;
+  justify-content: flex-end;
+}
+.nav-links li a {
+display: flex;
+
+text-decoration: none;
+justify-content: flex-end;
+width: 80%;
+}
+
+h5{
+  text:white;
+  margin-right: auto;
+}
+  
+
+  /* Estilos generales */
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-family: 'arial', cursive;
+  }
+  
+
+  .imagen_1,
+  .texto_2 {
+    flex: 1;
+    max-width: 100%;
+  }  
+.texto_2{
+  padding: 0%;
+  margin: 0;
+  border: 0px;
+  max-width:100%;
+  flex: 1;
+}
+.card#octubre .card-body {
+  height: 486px;
+  background-color: rgb(48, 47, 47);
+
+}
+
+.imagen_1{
+  padding: 0%;
+  margin: 0;
+  border: 0px;
+  height:100%;
+}
+  .seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+  }
+
+.row-cols-2 p{
+  padding-top: 2rem;
+}
+.row-cols-2 h2{
+  padding-top: 0;
+}
+
+
+/* FORMULARIO */
+
+/* Aplica espaciado interno a todos los campos de entrada con la clase .form-control */
+.row-form{
+  border: #031220,1px;
+}
+
+
+
+
+
+  /* Secciones*/
+  .seccion-clara {
+    color: black;
+    text-decoration: none;
+  }
+  .seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+  }
+  
+  .seccion-texto {
+    font-size: 1.2rem;
+  }
+  
+  .btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+  }
+  
+  .texto-negro {
+    color: black;
+  }
+  
+  .texto-blanco {
+    color: white;
+  }
+
+
+  
+  .badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .badge {
+    margin: 5px;
+  }
+
+
+  /* Formulario */
+.formulario{
+  align-items: center;
+  justify-content: center;
+  border-top: 5cm;
+  padding:;
+
+}
+
+  /* Pie de pagina (footer) */
+  
+  footer {
+    min-height: 500px;
+  }
+  
+  .footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+  }
+  
+  .footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+
+  .derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+  }
+  
+  /* Adaptable (Responsivo) */
+  
+  @media screen and (max-width: 400px) {
+    .overlay p {
+      font-size: 18px;
+    }
+  
+    .overlay i {
+      font-size: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .navbar-brand {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+
+.derechos-de-autor {
+  margin-top: 20px; 
+}

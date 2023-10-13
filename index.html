@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Luis DN">
+    <meta name="description" content="TP Integrador FrontEnd">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Luis DN | TP Integrador Front-End</title>
+<!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]>
+</script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]>
+</script>
+</head>
+  <body>
+    
+    <!-- Barra de navegacion -->
+    
+    <div class="container-nav">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <img src="imagenes_integrador_front/codoacodo.png" class="logo" style="width: 150px">
+          <h5>
+            Conf Bs As
+          </h5>
+        <ul class="nav-links">
+          <li><a href="#">La conferencia</a></li>
+          <li><a href="#">Los oradores</a></li>
+          <li><a href="#">El lugar y la fecha</a></li>
+          <li><a href="#">Conviértete en orador</a></li>
+          <li class="success"><a href="#">Comprar tickets</a></li>
+        </ul>
+      </nav>
+      <button class="button-menu-toggle">Menu</button>
+      </div>
+        </a>
+        
+        </nav>     
+    </div>
+      
+    <!-- Seccion Fondo -->
+
+    <section class="fondo">
+      <div class="container col-12"></div>
+      <img src="imagenes_integrador_front/hawaii.jpg" style="max-width: 100%; alt="fondo principal" >
+      </div>
+      <div>
+        <h5>CONOCE A LOS</h5>
+      </div>
+      <h1>ORADORES</h1>
+    </section>
+
+
+    <!-- TARJETAS -->
+
+    <!-- STEVE JOBS -->
+
+    <section class="cards_oradores">
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="card mb-4" style="width: 20rem;">
+            <img src="imagenes_integrador_front/steve.jpg" class="card-img-top">
+            <div class="card-body">
+              <div class="d-flex align-items-center">
+                <span class="badge bg-warning text-black mr-2">Javascript</span>
+                <span class="badge bg-primary">React</span>
+              </div>
+            <h5 class="card-title">Steve Jobs</h5>
+            <p class="card-text">Ebis vendae eaqui solupta turera prepe parum ut estrum, cus as nient aut aut pa nost, consed ut reroribus ex ea dolor as secestrum qui con preprae sequam ipsaeperum is ipsamus aectibustior accae perovit quas as modipsunt ut volorro beatemolenis veremporum quianda perchil es quam eum</p>
+          </div>
+        </div>
+      </div>
+        
+        <!-- BILL GATES -->
+
+        <div class="col-md-4">
+          <div class="card mb-4" style="width: 20rem;">                        
+            <img src="imagenes_integrador_front/bill.jpg" class="card-img-top">
+              <div class="d-flex align-items-center">
+                <span class="badge bg-warning text-black mr-2">Javascript</span>
+                <span class="badge bg-primary">React</span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Bill Gates</h5>
+                <p class="card-text">Ebis vendae eaqui solupta turera prepe parum ut estrum, cus as nient aut aut pa nost, consed ut reroribus ex ea dolor as secestrum qui con preprae sequam ipsaeperum is ipsamus aectibustior accae perovit quas as modipsunt ut volorro beatemolenis veremporum quianda perchil es quam eum</p>
+              </div>
+          </div>
+        </div>
+
+        <!-- ADA LOVELACE -->
+
+        <div class="col-md-4">
+          <div class="card mb-4" style="width: 20rem;">
+            <img src="imagenes_integrador_front/ada.jpeg" class="card-img-top">
+              <div class="d-flex align-items-center">
+                <span class="badge bg-secondary">Negocios</span>
+                <span class="badge bg-danger">Startups</span>
+              </div>       
+              <div class="card-body">
+                <h5 class="card-title">Ada Lovelace</h5>
+                <p class="card-text">Ebis vendae eaqui solupta turera prepe parum ut estrum, cus as nient aut aut pa nost, consed ut reroribus ex ea dolor as secestrum qui con preprae sequam ipsaeperum is ipsamus aectibustior accae perovit quas as modipsunt ut volorro beatemolenis veremporum quianda perchil es quam eum</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--SECCION HONOLULU-->
+   
+    <div class="row" >
+        <div class="imagen_1 col-sm-6">
+          <img src="imagenes_integrador_front/honolulu.jpg" style="max-width: 100%">
+        </div>
+        
+        <div class="texto_2 col-sm-6">
+          <div class="card" id="octubre">
+              <div class="card-body text-white">
+                <h5 class="card-title" style="font-weight: bold;">Bs As - Octubre</h5>
+                  <p class="card-text ">Buenos Aires es la provincia y  localidad mas grande del estado de Argentina, en los Estados Unidos.
+                  Honolulu es la mas sureña de entre las ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana
+                  en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado que cubre toda la ciudad
+                  (aproximadamente 600km2 de superficie).
+                </p>
+                <button class="btn btn-primary border-white bg-transparent text-white">Conocé más</button>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+  <!---------------------FORMULARIO-----------> 
+  
+  <div class="row-cols-2  ">
+    <div class="container col-2 text-center">
+      <p>CONVIÉRTETE EN UN</p>
+      <h2>ORADOR</h2>
+    </div>
+</div>
+<div class="container-fluid col-md-2 align-content-center">
+  <form class="d-flex">
+    <div class="form-group col-md-12">
+      <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
+    </div>
+    <div class="form-group col-md-12">
+      <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido">
+    </div>
+  </form>
+</div>
+
+<div class="row-form col-md-8 text-center">
+  
+
+
+</div>
+  </div>
+    
+
+  <!-- Pie de pagina (footer) -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+    <p class="footer-texto text-center">Peguntas frecuentes</p>
+    <p class="footer-texto text-center">Contactanos</p>
+    <p class="footer-texto text-center">Prensa</p>
+    <p class="footer-texto text-center">Conferencias</p>
+    <p class="footer-texto text-center">Terminos y condiciones</p>
+    <p class="footer-texto text-center">Privacidad</p>
+    <p class="footer-texto text-center">Estudiantes</p>
+    <p class="derechos-de-autor">Creado por Luis Di Norcia (2023) &#169;</p>
+  </footer>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
