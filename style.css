@@ -5,34 +5,42 @@
     background-color: #031220;
     justify-content: flex-end;    
     height: min-content;
+      
 }
-
 .navbar h5 {
   color: antiquewhite;
 }
 
-.nav-links a{
-  font-size: 600;
-  color: aliceblue;
-  display: end;
-  justify-content: flex-end
-  font-family:'Quicksand', sans-serif;
-}
 .nav-links{
+  color: cornsilk;
   display: flex;
   text-align:center;
   list-style: none;
   justify-content: flex-end;
   font-family:'Quicksand', sans-serif;
 }
-.nav-links li a {
-display: flex;
 
-text-decoration: none;
-justify-content: flex-end;
-width: 80%;
+.nav-links li a:hover{
+transform: scale(1.1);
 }
 
+.nav-links li a {
+display: inline-block;
+text-decoration: none;
+justify-content: flex-end;
+width: 75%;
+padding: 0 4px;
+color: cornsilk;
+transition:transform 0.3s;
+}
+
+.nav-links .comprar-link{
+  color:#07f50f;
+}
+
+.otros-links{
+  color: cornsilk;
+}
 h5{
   text:white;
   margin-right: auto;
@@ -139,7 +147,7 @@ h5{
   }
   
   .badge {
-    margin: 5px;
+    margin: 10px;
   }
 
 
@@ -180,7 +188,7 @@ h5{
     padding: 10px;
     margin-bottom: 2px;
     font-family: 'Quicksand', sans-serif;
-    justify-content: space-around;
+    justify-content: stretch;
     justify-content: space-between;
   }
   
