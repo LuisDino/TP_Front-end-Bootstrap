@@ -116,7 +116,7 @@
 
     <!-- TARJETAS -->
 
-   <section class="cards_oradores">
+    <section class="cards_oradores">
       <div class="row justify-content-center">
         
         <!-- STEVE JOBS -->
@@ -192,47 +192,59 @@
       </div>
     </div>
     
-    <!---------------------FORMULARIO-----------> 
+     
       
     <div class="orador d-flex row-cols-2">
       <div class="container col-2 text-center">
         <p>CONVIÉRTETE EN UN</p>
         <h2>ORADOR</h2>
-        <p>
-          Anótate como orador para dar una charla..ignite. Cuéntanos de qué quieres hablar!
-        </p>
+      <p>
+        Anótate como orador para dar una charla..ignite. Cuéntanos de qué quieres hablar!
+      </p>
       </div>
     </div>
+    
+    <!---------------------FORMULARIO----------->
     
     <div class="row justify-content-center d-flex">
       <div class="formu_nombre col-sm-3">
         <form>
           <div class="form-group">
-            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
+            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
           </div>
         </form>  
-      </div>  
+      </div>
       <div class="formu_apellido col-sm-3">    
         <form>
           <div class="form-group">
-            <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido">
+            <input type="text" class="form-control" id="apellido" name "apellido" placeholder="Apellido" required>
           </div>
         </form>
       </div>
-    </div>  
+    </div>
     
     <div class="row formu_charla justify-content-center d-flex">
       <div class="col-sm-6">
         <form>
-          <div class="form-group"></div>
-            <input type="text" class="form-control" id="charla" name="charla" placeholder="Sobre qué quieres hablar?">
+          <div class="form-group">
+            <input type="text" class="form-control" id="charla" name="charla" placeholder="Sobre qué quieres hablar?" required>
           </div>
         </form>
       </div>
     </div>
-    <div class="col-sm-6 justify-content-center recuerda">
-      <p>Recuerda añadir un titulo para tu charla</p>
+    
+    <div class="row justify-content-center">
+      <div class="col-sm-6 recuerda">
+        <p>Recuerda añadir un título para tu charla</p>
+      </div>
     </div>
+    
+    <div class="row justify-content-center">
+      <div class="col-sm-6 d-flex enviar">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+    
   </body>   
 
   <!-- Pie de pagina (footer) -->

@@ -1,23 +1,23 @@
 /* Barra de navegacion */
 
 .navbar {
-    padding: 0;
-    background-color: #031220;
-    justify-content: flex-end;    
-    height: min-content;
-      
+  padding: 0;
+  background-color: #031220;
+  justify-content: flex-end;    
+  height: min-content;
+    
 }
 .navbar h5 {
-  color: antiquewhite;
+color: antiquewhite;
 }
 
 .nav-links{
-  color: cornsilk;
-  display: flex;
-  text-align:center;
-  list-style: none;
-  justify-content: flex-end;
-  font-family:'Quicksand', sans-serif;
+color: cornsilk;
+display: flex;
+text-align:center;
+list-style: none;
+justify-content: flex-end;
+font-family:'Quicksand', sans-serif;
 }
 
 .nav-links li a:hover{
@@ -35,120 +35,124 @@ transition:transform 0.3s;
 }
 
 .nav-links .comprar-link{
-  color:#07f50f;
+color:#07f50f;
 }
 
 .otros-links{
-  color: cornsilk;
+color: cornsilk;
 }
 h5{
-  text:white;
-  margin-right: auto;
+text:white;
+margin-right: auto;
 }
-  
 
-  /* Estilos generales */
-  
-  section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  h1 {
-    font-size: 2.5rem;
-    font-family: 'arial', cursive;
-  }
-  
 
-  .imagen_1,
-  .texto_2 {
-    flex: 1;
-    max-width: 100%;
-  }  
-.texto_2{
-  padding: 0%;
-  margin: 0;
-  border: 0px;
-  max-width:100%;
+
+
+/* Estilos generales */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'arial', cursive;
+}
+
+
+.imagen_1,
+.texto_2 {
   flex: 1;
+  max-width: 100%;
+}  
+.texto_2{
+padding: 0%;
+margin: 0;
+border: 0px;
+max-width:100%;
+flex: 1;
 }
 .card#octubre .card-body {
-  height: 486px;
-  background-color: rgb(48, 47, 47);
+height: 486px;
+background-color: rgb(48, 47, 47);
 
 }
 
 .imagen_1{
-  padding: 0%;
-  margin: 0;
-  border: 0px;
-  height:100%;
+padding: 0%;
+margin: 0;
+border: 0px;
+height:100%;
 }
 
 .row-cols-2 p{
-  padding-top: 2rem;
+padding-top: 2rem;
 }
 .row-cols-2 h2{
-  padding-top: 0;
+padding-top: 0;
 }
+
+
 
 
 /* FORMULARIO */
 
 /* Aplica espaciado interno a todos los campos de entrada con la clase .form-control */
 .row-form{
-  border: #031220,1px;
+border: #031220,1px;
 }
 
 
 
 
 
-  /* Secciones*/
-  .seccion-clara {
-    color: black;
-    text-decoration: none;
-  }
-  .seccion-descripcion {
-    font-size: 1.2rem;
-    color: #584e4e;
-  }
-  
-  .seccion-texto {
-    font-size: 1.2rem;
-  }
-  
-  .btn-info {
-    font-size: 1.1rem;
-    margin: 20px;
-  }
-  
-  .texto-negro {
-    color: black;
-  }
-  
-  .texto-blanco {
-    color: white;
-  }
+/* Secciones*/
+.seccion-clara {
+  color: black;
+  text-decoration: none;
+}
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+}
+
+.btn-info {
+  font-size: 1.1rem;
+  margin: 20px;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.texto-blanco {
+  color: white;
+}
 
 
-  
-  .badges-contenedor {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 10px 0;
-  }
-  
-  .badge {
-    margin: 10px;
-  }
+
+.badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 10px;
+}
 
 
-  /* Formulario */
-  .row-cols-2 p{
-  align-items: center;
+/* Formulario */
+.row-cols-2 p{
+align-items: center;
 }
 
 #charla{
@@ -156,84 +160,129 @@ height: 200px;
 margin-top: 20px;
 }
 #nombre{
-  width: 100%;
+width: 100%;
 }
 
 #apellido{
-  width: 100%;
+width: 100%;
 }
 .recuerda p{
-  font-size: smaller;
-  justify-content: flex-end;
-  display:flex;
-  margin-right: 17%;
-  color: #7d7c7c;
+font-size: smaller;
+justify-content: flex-start;
+display:flex;
+margin-right: 17%;
+color: #7d7c7c;
 }
 
-  /* Pie de pagina (footer) */
-  
-  footer {
-    height: min-content;
-  
-  }
-  
+.enviar button{
+background-color:#8bc926;
+width:100%;
+color:white;
+}
 
-  .derechos-de-autor{
-    padding:3px;
-    font-size: 15px;
-    color: #aeaeae;
-    margin-bottom: 0px;
-    
-  }
+.form-control {
+position: relative;
+}
+
+.form-control::placeholder {
+position: absolute;
+.
+font-size: 16px; 
+color: #999; 
+}
+
+/* Pie de pagina (footer) */
+
+footer {
+  height: min-content;
+
+}
 
 
-  .footer-logo {
-    height: 80px;
-    width: 80px;
-    margin: 10px;
-  }
+.derechos-de-autor{
+  padding:3px;
+  font-size: 15px;
+  color: #aeaeae;
+  margin-bottom: 0px;
   
-  .footer-texto {
-    font-size: 1.2rem;
-    padding: 10px;
-    font-family: 'Quicksand';
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-  }
-  
-  .seccion-oscura {
-    color: white;
-    background-color:#0f2a42;
-    justify-content: space-around;
-    margin-top: 20px;
+}
+
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.links-footer {
+  font-size: 1.2rem;
+  padding: 10px;
+  font-family: 'Quicksand';
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+}
+.ul-links li{
+  list-style: none;
+}
+.ul-links li a:hover{
+  transform: scale(1.2);
   }
 
- 
-  
-  
-  
-  
-  
-  
-  
-  
-  /* Adaptable (Responsivo) */
-  
-  @media screen and (max-width: 400px) {
-    .overlay p {
-      font-size: 18px;
-    }
-  
-    .overlay i {
-      font-size: 40px;
-    }
+.ul-links li a{
+
+  transition: transform:0.4s;
+}  
+
+.ul-links li{
+align-items: center;
+}
+.ul-links .links-footer{
+  text-decoration: none;
+  color: antiquewhite;
+  align-items: center;
+}
+.ul-links {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  height: max-content;
+}
+
+.seccion-oscura {
+  color: white;
+  background-color:#0f2a42;
+  justify-content: space-around;
+  margin-top: 20px;
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+/* Adaptable (Responsivo) */
+
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
   }
-  
-  @media screen and (max-width: 767px) {
-    .navbar-brand {
-      display: none;
-    }
+
+  .overlay i {
+    font-size: 40px;
   }
-  
-  @media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
