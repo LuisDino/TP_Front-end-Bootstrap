@@ -46,9 +46,6 @@ text:white;
 margin-right: auto;
 }
 
-
-
-
 /* Estilos generales */
 
 section {
@@ -96,7 +93,10 @@ padding-top: 2rem;
 padding-top: 0;
 }
 
-
+.anotate {
+  white-space: nowrap;
+  
+}
 
 
 /* FORMULARIO */
@@ -105,10 +105,6 @@ padding-top: 0;
 .row-form{
 border: #031220,1px;
 }
-
-
-
-
 
 /* Secciones*/
 .seccion-clara {
@@ -193,55 +189,37 @@ color: #999;
 
 /* Pie de pagina (footer) */
 
+
 footer {
   height: min-content;
-
 }
-
-
 .derechos-de-autor{
   padding:3px;
   font-size: 15px;
   color: #aeaeae;
   margin-bottom: 0px;
-  
 }
-
-
 .footer-logo {
   height: 80px;
   width: 80px;
   margin: 10px;
 }
 
-.links-footer {
-  font-size: 1.2rem;
-  padding: 10px;
-  font-family: 'Quicksand';
-  display: flex;
-  margin-top: 0px;
-  align-items: center;
-}
-.ul-links li{
+.futer li{
   list-style: none;
+  font-family:quicksand;
 }
-.ul-links li a:hover{
+.futer li a:hover{
   transform: scale(1.2);
-  }
-
-.ul-links li a{
-
+}
+.futer li a{
   transition: transform:0.4s;
 }  
 
 .ul-links li{
 align-items: center;
 }
-.ul-links .links-footer{
-  text-decoration: none;
-  color: antiquewhite;
-  align-items: center;
-}
+
 .ul-links {
   display: flex;
   flex-direction: row;
@@ -254,18 +232,24 @@ align-items: center;
   color: white;
   background-color:#0f2a42;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
 }
 
+.futer a{
+  text-decoration:none;
+  color:white;
+  
+}
 
-
-
-
-
-
-
-
+.futer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  height: max-content;
+}
 
 /* Adaptable (Responsivo) */
 
@@ -285,4 +269,5 @@ align-items: center;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px)
+}
